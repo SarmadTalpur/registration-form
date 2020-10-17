@@ -1,0 +1,3 @@
+I have made this registration form and after making a lot of efforts I've been able to create this form.
+But still there's a problem.
+I want background image a little bit transparent and fixed to the page.
