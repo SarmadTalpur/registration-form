@@ -26,3 +26,59 @@ pre{
     min-height: 100%;
     overflow: hidden;
 }
+
+#back::before{
+    content: "";
+    background-image: url('Web-Designing.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right:0;
+}
+.height{
+    line-height: 30px;
+}
+div.input{
+    margin-left: 75px;
+    background-color: #dce5eb;
+    border: 1px solid black;
+    opacity: 0.9;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 13px;
+    width: fit-content;
+}
+div.topimage{
+    opacity: 0.7;
+}
+img.top{
+    margin-left: 530px;
+    margin-top: 4px;
+    width: 26%;
+}
+p{
+    font-size: large;
+    margin-left: 70px;
+    margin-top: 85px;
+    text-align-last: left;
+}
+#button1 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+    margin: 2px 3px;
+  }
+  
+  #button1:hover {
+    background-color: #45a049;
+  }
